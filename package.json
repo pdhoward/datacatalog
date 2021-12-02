@@ -2,7 +2,7 @@
   "name": "datacatalog",
   "version": "1.0.3",
   "private": false,
-  "homepage": "frontend/build",
+  "homepage": "/",
   "dependencies": {
     "@civicactions/data-catalog-components": "^1.13.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -22,6 +22,7 @@
     "react-js-pagination": "^3.0.3",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "reactstrap": "^9.0.1",
     "swagger-ui-react": "4.1.2"
   },
   "scripts": {
