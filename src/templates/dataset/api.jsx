@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "@reach/router";
-import Loader from "react-loader-advanced";
-import LoadingSpin from "react-loading-spin";
+import { Link } from "react-router-dom";
 import {
   ApiDocs,
   Organization
@@ -42,14 +40,7 @@ const ApiDocsSpecific = ({ id, location }) => {
   return (
     <Layout title="Dataset API">
     <div className={`dc-dataset-page ${config.container}`}>
-       <Loader
-          backgroundStyle={{ backgroundColor: "#f9fafb" }}
-          foregroundStyle={{ backgroundColor: "#f9fafb" }}
-          show={loading}
-          message={
-            <LoadingSpin width={"3px"} primaryColor={"#007BBC"} />
-          }
-        >
+       
       <div className="row">
 
           <div className="col-md-3 col-sm-12">
@@ -84,7 +75,7 @@ const ApiDocsSpecific = ({ id, location }) => {
           </div>
 
       </div>
-      </Loader>
+     
     </div>
     </Layout>
   );
