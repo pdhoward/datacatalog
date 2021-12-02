@@ -1,0 +1,54 @@
+{
+  "name": "datacatalog",
+  "version": "1.0.3",
+  "private": false,
+  "homepage": "frontend/build",
+  "dependencies": {
+    "@civicactions/data-catalog-components": "^1.13.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "excerpts": "^0.0.3",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-js-pagination": "^3.0.3",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "swagger-ui-react": "4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^6.0.0",
+    "@testing-library/dom": "^7.16.1",
+    "cypress": "^4.12.1",
+    "eslint-plugin-cypress": "^2.11.1"
+  }
+}
